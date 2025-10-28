@@ -1,0 +1,6 @@
+num = int(input("Enter a Two-digit number:"))
+tens = num // 10
+ones = num % 10
+reverse_num = ones * 10 + tens
+print("entered number reversed",reverse_num) # Auto detect text files and perform LF normalization
+
